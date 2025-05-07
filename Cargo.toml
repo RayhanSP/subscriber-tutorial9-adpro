@@ -4,3 +4,8 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+borsh = "0.9.3"
+futures = "0.3"
+borsh-derive = "0.9.1"
+crosstown_bus = "=0.5.3"
+tokio = { version = "1.21.2", features = ["full"] }
