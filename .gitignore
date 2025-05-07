@@ -1,1 +1,19 @@
-/target
+# Ignore hasil build
+/target/
+
+# Ignore file config lokal VSCode & IntelliJ
+/.vscode/
+/.idea/
+
+# Ignore Cargo lockfile untuk library crate (optional)
+/Cargo.lock
+
+# Ignore file backup atau swap
+*~
+*.swp
+*.bak
+*.tmp
+
+# Ignore file dari OS
+.DS_Store
+Thumbs.db
